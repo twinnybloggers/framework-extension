@@ -34,40 +34,18 @@
 			"js" : [
 				"js/plugins/jquery.min.js",
 				"js/plugins/jquery-ui.min.js",
-				"js/plugins/iris.min.js",													
-				"js/plugins/ckeditor.js",				
-				"js/libs/common.js",				
-				"js/libs/controls.js",				
-				"js/apps/dashboard-layout.js",				
-				"js/apps/dashboard-posts.js",
-				"js/apps/dashboard-settings.js",
-				"js/apps/dashboard-themes.js",
-				"js/apps/dashboard.js",
-				"js/apps/theme.js",				
-				"js/apps/theme-options.js",
-				"js/apps/theme-menus.js",
-				"js/apps/theme-translate.js",
-				"js/apps/theme-widgets.js",
-				"js/apps/theme-demos.js",
-				"js/apps/theme-updates.js",
-				"js/apps/theme-code.js",
-				
-				"js/apps/post.js",
-				"js/apps/post-amp.js",
-				"js/apps/post-seo.js"
 			]
 		},
 		{
 			"matches" : [								
-				"https://*.blogger.com/display?blogID=*&mode=layout-*&security_token=*"
+				"https://*.blogger.com/"
 			],
 			"css" : [	
 				"css/dashboard-layout-iframe.css"
 			]
 			,						
 			"js" : [
-				"js/plugins/jquery.min.js",
-				"js/apps/dashboard-layout-iframe.js"			
+				"js/plugins/jquery.min.js"		
 			]
 		}	
 	]
