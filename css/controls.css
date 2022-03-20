@@ -1,0 +1,204 @@
+/* COMMON INTERFACE */
+.twinny-control {
+	padding: 30px 0;
+	border-top: 1px solid #ddd;
+	height: auto!important;
+}
+
+.m-ico {
+    color: #6e46b9!important;
+}
+.twinny-control-info {
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+	margin-right: 10%;
+}
+.twinny-control-input {
+	display: inline-block;
+	width: 55%;
+}
+.twinny-control-title {
+    font-weight: 500;
+    color: black;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+.twinny-control-description {
+	font-size: 14px;
+	color: #999;
+	margin-top: 10px;
+	line-height: 1.7em;
+}
+.twinny-control-input {
+	font-size: 14px;
+	font-weight: 100;
+}
+.twinny-control-input label {
+	position: relative;
+	display: block;
+}
+/************/
+/* CONTROLS */
+.twinny-control-reset {
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	display: none;
+	line-height: 1em;	
+    margin: 0 0 0 .5em;
+}
+.twinny-control-reset:hover {
+	text-decoration: underline;
+}
+.twinny-control:hover .twinny-control-reset {
+	display: inline;
+}
+.twinny-control input,
+.twinny-control select,
+.twinny-control textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px;
+    box-shadow: none!important;
+    background-image: none!important;
+    font-family: 'Courier New';
+    border-radius: 10px;
+    background: aliceblue;
+    border-bottom: 4px dashed #e09635;
+}
+
+
+/* -- CHECKBOX */
+.twinny-control input.twinny-control-checkbox-value {
+    width: 20px;
+    margin: 0 10px 0 0;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+	display: inline-block;
+}
+.twinny-control-checkbox label {
+	cursor: pointer;
+}
+
+/* -- RADIO */
+.twinny-control-radio label {
+	display: block;
+	margin: 0 0 10px 0;
+}
+.twinny-control.twinny-control-radio {
+	padding-bottom: 20px;
+}
+
+/* -- COLOR */
+.twinny-control input.twinny-control-color-value {
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+.twinny-control-color-preview {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	top: 5px;
+	left: 5px;
+	border-radius: 4px;
+	border: 1px solid #0002;
+	box-shadow: 1px 1px 3px #0002;
+}
+/* -- others */
+.twinny-control select,
+.twinny-control .chosen-choices {
+	cursor: pointer;	
+}
+.twinny-control select.ajax {
+	display: none;
+}
+textarea.twinny-control-textarea-value {
+	min-height: 150px;
+	line-height: 1.5em;
+	padding: 0 1%;
+}
+.twinny-control .chosen-container-single .chosen-single {
+	padding: 0 2%!important;
+	height: auto;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	background: #fff;
+	box-shadow: none;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+}
+.twinny-control .chosen-container-single .chosen-single div b {
+	background-position: 0px 10px;
+}
+.twinny-control .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+	padding: 0!important;
+	margin: 0!important;
+	font-weight: 100;
+	color: #666;
+	min-width: 150px;
+}
+.twinny-control .chosen-container-multi .chosen-choices li.search-choice {
+	margin: 10px 5px 0 0!important;
+	display: block;
+}
+
+
+/* FONT PICKER */
+
+.twinny-control-font-picker {
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid #0002;
+    box-shadow: 1px 1px 5px #0003;
+	display: none;
+}
+.twinny-control-font-picker .col {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 20px 0 20px;
+}
+
+.twinny-control-font-picker .font-face-list .select {
+    max-height: 240px;
+    overflow: scroll;
+    border: 1px solid #0003;    
+	position: relative;
+}
+.twinny-control-font-picker .font-face-list .select .option {
+    display: block;
+    color: black;    
+    padding: 10px;
+	position: relative;
+}
+.twinny-control-font-picker .font-face-list .select .option:hover {
+    background: #00000005;
+}
+.twinny-control-font-picker .font-face-list .select .option.active {
+    background: #0000000a;
+}
+
+.twinny-control-font-picker .col2 label {
+    display: block;
+    margin: 0 0 20px 0;
+}
+.twinny-control-font-picker .col2 label div {
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+.twinny-control-font-picker .preview {
+    line-height: 1.7em!important;
+    max-height: 230px;
+    overflow: auto;
+    padding: 0 20px 0 0;
+}

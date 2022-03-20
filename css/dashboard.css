@@ -1,0 +1,21 @@
+/*global*/
+header {opacity: 1}
+
+/*dashboard menu item*/
+a.dashboard-menu-item {
+   display: block;
+   padding: 12px 0 12px 73px;
+   font-size: 16px;
+   color: #000b;
+   position: relative;
+}
+a.dashboard-menu-item img {
+    left: 31px;
+    top: 19px;
+    position: absolute;
+    height: 16px;
+}
+a.dashboard-menu-item:hover {
+    background: #eceff1;
+}
+

@@ -1,0 +1,99 @@
+/* GLOBAL for THEME APP */
+header {
+	border-bottom: 1px solid rgb(236, 239, 241)
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #00000009;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0000001F;
+  border-radius: 100px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+/*theme app menu */
+.twinny-theme-app-menu a {
+    display: inline-block;
+    padding: 15px 0;
+    margin: 0 0 0 50px;    
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 11px;
+    color: #666;
+    font-weight: 400;
+}
+.twinny-theme-app-menu a.active, .twinny-theme-app-menu a:hover {
+    border-bottom: 1px solid #0009;
+    color: black;
+}
+a.twinny-logo {
+    position: absolute;
+    right: 42px;
+    top: -12px;
+    opacity: .8;
+}
+a.twinny-logo:hover {
+    border: none;
+    opacity: 1;
+}
+a.twinny-logo img {
+    height: 55px!important;
+}
+/* theme app toolbar */
+.twinny-theme-app-toolbar-primary-button div[role="button"] {
+    border-radius: 10px;
+    width: 100px;
+    border: 1px solid #0001;
+    background: #eceff1;
+}
+.twinny-theme-app-toolbar-primary-button div[role="button"]:hover {
+    background: #f57c0099!important;
+}
+
+.twinny-theme-app-toolbar-primary-button div[role="button"] strong {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin-left: 5px;
+}
+.twinny-theme-app-toolbar input {
+	padding: 10px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    min-width: 250px;
+}
+
+/* theme app toolbars */
+.twinny-theme-app-toolbar {
+	display: none;	
+    position: absolute;
+    left: 50px;
+}
+.twinny-theme-app-toolbar.active {
+	display: block;
+}
+/* theme app pages */
+.twinny-theme-app-page {
+	display: none;	
+}
+.twinny-theme-app-page.active {
+	display: block;
+}
+.twinny-theme-app-page-custom {
+	position: relative;
+	background: #ffffff;
+	padding: 50px 0 0 50px;
+}
+
+
+
+/*code*/
+.twinny-theme-app-toolbar-code span {
+    font-size: 16px;
+    position: relative;
+    top: -4px;
+    color: #666;
+    font-weight: 100;
+}

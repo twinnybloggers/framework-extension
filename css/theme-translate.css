@@ -1,0 +1,9 @@
+.twinny-theme-app-page-translate {
+    overflow-y: scroll;
+}
+.twinny-theme-app-page-translate .twinny-control-input {padding-right: 100px;box-sizing: border-box;}
+.twinny-theme-app-page-translate .twinny-control:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}

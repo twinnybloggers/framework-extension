@@ -1,0 +1,114 @@
+/*global*/
+header {
+	opacity: 0;
+}
+a {
+	cursor: pointer;
+}
+.clear {
+	clear: both;
+}
+ul {
+	list-style-type: none;
+}
+p {
+    margin: 0 0 30px 0;
+}
+.hide {
+	display: none;
+}
+/* UI / INTERFACE*/
+/*loader*/
+.twinny-loader-container {
+	position: relative;
+	min-height: 320px;
+}
+.twinny-loader {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;	
+	z-index: 9999;
+	background: #fff9;
+}
+.twinny-loader-inner {
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	top: 50%;	
+	text-align: center;
+	
+}
+.twinny-loader-inner img {
+	display: inline-block;
+	height: 90px;
+	margin-top: -45px;
+}
+
+/* notification box */
+.twinny-notibox {
+    position: fixed;
+    border-radius: 4px;
+    background-color: #323232;
+    box-shadow: 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%), 0px 3px 5px -1px rgb(0 0 0 / 20%);
+    color: #fff;
+    font-size: 14px;
+    min-height: 48px;
+    min-width: 200px;
+    z-index: 99999;
+    left: 24px;
+    margin-right: 24px;
+    right: auto;
+    bottom: 24px;
+    max-width: 600px;
+}
+
+.twinny-notibox .inner {
+    box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    line-height: normal;
+    overflow: hidden;
+    padding: 14px 24px;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.twinny-msg {
+    background: #00000003;
+    padding: 20px 20px 30px 20px;
+    box-sizing: border-box;
+}
+
+.twinny-msg.twinny-msg-warning {
+    color: #ff7f50;
+    background: #ff7f500a;
+    border: 1px solid #ff7f5050;
+}
+.twinny-msg-icon {
+    font-size: 150%;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    margin: 0 10px 0;
+}
+
+/* icons 
+https://fonts.google.com/icons?selected=Material+Icons
+*/
+.m-ico {
+	font-family: 'Material Icons Extended';
+	text-transform: none!important;
+	font-style: normal;
+	user-select: none;
+}
+
+
+/* jquery ui support */
+.tabs .content {
+	display: none;
+}
+.tabs .content.active {
+	display: block;
+}

@@ -1,0 +1,51 @@
+/* ESPECIAL for THEME OPTION PAGE */
+.twinny-introduce {
+    position: absolute;
+    width: 88%;
+    padding: 30px;
+    top: 50px;
+    z-index: 9999999999999999;
+    left: 10px;
+}
+.twinny-theme-option-panels {
+    float: left;
+    width: 350px;
+	overflow-y: auto;
+	padding-bottom: 50px ;
+}
+.twinny-theme-option-panels a {
+    display: block;
+    color: #000a;    
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.twinny-theme-option-panels a.active,
+.twinny-theme-option-panels a:hover {
+    color: #000;
+    background: #00000005
+}
+.twinny-theme-option-groups {
+    margin-left: 350px;
+    padding: 0 150px 0 50px;
+    position: relative;
+    overflow-y: scroll;
+    height: 100%;
+}
+.twinny-theme-option-group {
+	padding-bottom: 150px;
+}
+.twinny-theme-option-group,
+.twinny-theme-option-group .twinny-control {
+	display: none;
+}
+.twinny-theme-option-group.active,
+.twinny-theme-option-group .twinny-control.active {
+	display: block;
+}
+.twinny-theme-option-group > h2 {
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0 0 30px 0;
+}
+

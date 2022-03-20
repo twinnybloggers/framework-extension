@@ -1,0 +1,46 @@
+textarea.twinny-theme-update-code-input {
+    display: block;
+    min-width: 80%;
+    min-height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 1px solid #0003;
+    max-width: 80%;
+    max-height: 200px;
+}
+
+.twinny-theme-app-page-updates {
+    overflow-y: scroll;
+    padding-right: 50px;
+ }
+
+button.twinny-theme-update-merge-button {
+    display: block;
+    float: left;
+    width: 20%;
+    max-width: 20%;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 0;
+    border: 1px solid #0002;
+    margin-left: -1px;
+    background: #00000006;
+    opacity: .8;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+button.twinny-theme-update-merge-button:hover {
+    opacity: 1;
+}
+.twinny-theme-app-toolbar-updates h2 {
+	margin: 0;
+	font-size: 25px;
+	position: relative;
+	top: -5px;
+	font-weight: 100;
+}

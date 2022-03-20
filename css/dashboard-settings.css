@@ -1,0 +1,108 @@
+.twinny-dashboard-app-settings .dashboard-settings .setting {    
+    opacity: .9;    
+/*    transition: padding-left .1s ease-in;*/
+    padding: 10px 15px 5px 15px;
+}
+/*.twinny-dashboard-app-settings .dashboard-settings .setting[data-is-disable-dialog="true"] {
+	display: none;
+}*/
+
+.twinny-dashboard-app-settings .dashboard-settings .setting[data-value] {
+	cursor: pointer;
+}
+.twinny-dashboard-app-settings .dashboard-settings .setting:hover {
+    opacity: 1;
+    background: #ffc17a3d;
+/*    padding-left: 25px;    */
+}
+.twinny-dashboard-app-settings .dashboard-settings .setting-1 {
+    background: #00000005;
+}
+.twinny-dashboard-app-settings .dashboard-settings .right-col a.link {
+    display: block;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid;
+    width: 100%;
+    position: relative;
+    opacity: .8;
+}
+.twinny-dashboard-app-settings .dashboard-settings .right-col a.link:hover {
+    opacity: 1;
+    background: #0084f721;
+}
+.twinny-dashboard-app-settings .right-col a.link .m-ico {
+    display: none;
+}
+.twinny-dashboard-app-settings .dashboard-settings .right-col a.link .m-ico {
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 2px;
+	display: inline;
+}
+.twinny-dashboard-app-settings .dashboard-settings .setting-group-title {
+	color: #000;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+}
+
+/* search form */
+.twinny-dashboard-app-settings .setting-search-wrapper {
+    position: fixed;
+    margin: 29px 0 0 25px;
+    width: 50%;
+    display: none;
+    top: 40px;
+    z-index: 999;
+}
+.twinny-dashboard-app-settings  a.setting-search-clear {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 28px;
+    display: none;
+}
+.twinny-dashboard-app-settings input.setting-search {
+    padding: 15px 20px;
+    width: 100%;    
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+a.setting-search-toggle-button {
+    box-shadow: 0 1px 4px 0 rgb(60 64 67 / 30%);
+    padding: 10px 15px;
+    border-radius: 4px;
+    opacity: .8;
+	user-select: none;
+}
+
+.setting-search-toggle {
+    margin: 25px 0 0 25px;
+    position: fixed;
+    top: -8px;
+    z-index: 99999;
+}
+
+a.setting-search-toggle-button img {
+    height: 20px;
+    position: relative;
+    top: 6px;
+}
+
+a.setting-search-toggle-button span {
+    color: #444;
+    margin: 0 0 0 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+
+.dashboard-settings a.setting-search-toggle-button {
+    background: #0001;
+    box-shadow: none;
+}
+
+a.setting-search-toggle-button:hover {
+    opacity: 1;
+}

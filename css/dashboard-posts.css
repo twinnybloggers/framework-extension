@@ -1,0 +1,59 @@
+/* post app */
+/* - post edit link */
+a.twinny-dashboard-post-edit-link {
+	display: none;
+}
+.twinny-dasboard-app-post-item:hover a.twinny-dashboard-post-edit-link {
+	display: inline-block;
+}
+a.twinny-dashboard-post-edit-link img {
+    margin: 0 7px 0 0;
+    width: 36px;
+    position: relative;
+    top: -1px;
+}
+/*
+.twinny-dashboard-app-posts .inner {
+    float: left;
+    box-sizing: border-box;
+    width: 65%;
+    margin-left: 5%;
+}
+.twinny-dashboard-app-posts .labels {    
+    float: right;
+    width: 20%;
+    margin-top: 88px;
+    margin-right: 5%;
+    border: 1px solid #0003;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.twinny-dashboard-app-posts .labels .title {
+    font-size: 10px;    
+    top: -2px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: block;
+    color: #0005;
+}
+.twinny-dashboard-app-posts .labels .title img {
+    height: 10px;
+    margin: 0 0 0 5px;
+}
+.twinny-dashboard-app-posts .labels a.label {
+    display: inline-block;
+    border: 1px solid #b0bec5;
+    padding: 6px 12px;
+    border-radius: 100px;
+    margin: 10px 10px 0 0;
+	color: #78909c;
+	font-size: 12px;
+	
+}
+.twinny-dashboard-app-posts .labels a.label:hover {
+    background: #000;
+    color: white;
+}
+*/

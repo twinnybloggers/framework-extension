@@ -1,0 +1,50 @@
+.twinny-theme-app-page-demos {overflow-y: scroll;}
+
+.twinny-theme-demo-item {
+    float: left;
+    margin: 0 50px 50px 0;
+    box-shadow: 1px 1px 10px #0005;
+    box-sizing: border-box;
+    border: 1px solid #0004;
+    background: white;
+}
+
+.twinny-theme-demo-item .thumbnail {
+    border-bottom: 1px solid #0004;
+}
+.twinny-theme-demo-item .thumbnail img {
+    width: 400px!important;
+}
+.twinny-theme-demo-item .footer {
+    padding: 20px;
+}
+
+.twinny-theme-demo-item .footer h4 {
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+.twinny-theme-demo-item .actions a {
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #0004;
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+    background: #0001;
+    color: #0009;
+    opacity: .8;
+}
+
+.twinny-theme-demo-item .actions a.import {
+    background: #fa0;
+    color: white;
+}
+
+.twinny-theme-demo-item .actions a:hover {
+    opacity: 1;
+}
