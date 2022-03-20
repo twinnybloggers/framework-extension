@@ -1,3 +1,4 @@
+![20191225_155027.png](https://user-images.githubusercontent.com/21377149/154627826-44cb3ebf-5df4-4ed5-8415-64d4c70d2e2d.png)
 # Twinny Framework Script - Extension
 
 Twinny Framework Script On Github, Twinny framework ini dikhususkan untuk platform Blogger dan automatis Scan BlogID blogger anda
